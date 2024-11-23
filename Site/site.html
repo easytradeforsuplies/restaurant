@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منتجاتنا الغذائية</title>
+  <link rel="stylesheet" href="F:\visual studio\CSS\site.css">
+</head>
+<body>
+  <!-- الصفحة الرئيسية -->
+  <header class="main-header">
+    <h1>أهلاً بك في متجرنا</h1>
+    <p>أفضل المنتجات الغذائية الطبيعية بين يديك!</p>
+    <a href="#products" class="btn">تسوق الآن</a>
+  </header>
+
+  <!-- المنتجات -->
+  <section id="products" class="products-section">
+    
+    <h2 id="owo">منتجاتنا</h2>
+    <div class="products-container">
+      <!-- المنتج الأول -->
+      <div class="product-card">
+        <img src="F:\downloads\images for work\5.png" alt="زيتون طبيعي">
+        <h3>زيتون طبيعي</h3>
+        <p>50 جنيه/كيلو</p>
+        <label for="quantity-olive">الكمية:</label>
+        <input type="number" id="quantity-olive" min="1" value="1">
+        <button class="btn" onclick="addToCart('زيتون طبيعي', 'quantity-olive', 50)">أضف إلى السلة</button>
+      </div>
+
+     
+
+
+
+
+
+  <!-- المنتج الثاني -->
+      <div class="product-card">
+        <img src="F:\downloads\images for work\2.png" alt="شاي طبيعي">
+        <h3>شاي طبيعي</h3>
+        <p>30 جنيه/كيلو</p>
+        <label for="quantity-tea">الكمية:</label>
+        <input type="number" id="quantity-tea" min="1" value="1">
+        <but
+        ton class="btn" onclick="addToCart('شاي طبيعي', 'quantity-tea', 30)">أضف إلى السلة</button>
+      </div>
+
+
+
+
+
+        <!-- المنتج الثالث -->
+      <div class="product-card">
+        <img src="F:\downloads\images for work\a4.png" alt="خل طبيعي">
+        <h3>خل طبيعي</h3>
+        <p>20 جنيه/لتر</p>
+        <label for="quantity-vinegar">الكمية:</label>
+        <input type="number" id="quantity-vinegar" min="1" value="1">
+        <button class="btn" onclick="addToCart('خل طبيعي', 'quantity-vinegar', 20)">أضف إلى السلة</button>
+      </div>
+
+      
+
+
+
+
+
+      <div class="product-card">
+        <!-- المنتج رقم 3 -->
+        <img src="F:\downloads\images for work\1.png" alt="جوز هند">
+        <h3>جوز هند</h3>
+        <p>50 جنيه/كجم</p>
+        <label for="quantity-coconut">الكمية:</label>
+        <input type="number" id="quantity-coconut" min="1" value="1">
+        <button class="btn" onclick="addToCart('جوز هند', 'quantity-coconut', 50)">أضف إلى السلة</button>
+      </div>
+      
+      <div class="product-card">
+        <!-- المنتج رقم 4 -->
+        <img src="F:\downloads\images for work\4.png" alt="بسكوتو">
+        <h3>بسكوت</h3>
+        <p>20 جنيه/علبة</p>
+        <label for="quantity-biscotto">الكمية:</label>
+        <input type="number" id="quantity-biscotto" min="1" value="1">
+        <button class="btn" onclick="addToCart('بسكوت', 'quantity-biscotto', 20)">أضف إلى السلة</button>
+      </div>
+      
+      <div class="product-card">
+        <!-- المنتج رقم 5 -->
+        <img src="F:\downloads\images for work\64.png" alt="كورن فلاور">
+        <h3>كورن فلاور</h3>
+        <p>30 جنيه/كجم</p>
+        <label for="quantity-cornflour">الكمية:</label>
+        <input type="number" id="quantity-cornflour" min="1" value="1">
+        <button class="btn" onclick="addToCart('كورن فلاور', 'quantity-cornflour', 30)">أضف إلى السلة</button>
+      </div>
+      
+      <div class="product-card">
+        <!-- المنتج رقم 6 -->
+        <img src="F:\downloads\images for work\q4.png" alt="نوتيلا">
+        <h3>نوتيلا</h3>
+        <p>70 جنيه/علبة</p>
+        <label for="quantity-nutella">الكمية:</label>
+        <input type="number" id="quantity-nutella" min="1" value="1">
+        <button class="btn" onclick="addToCart('نوتيلا', 'quantity-nutella', 70)">أضف إلى السلة</button>
+      </div>
+      
+      <div class="product-card">
+        <!-- المنتج رقم 7 -->
+        <img src="F:\downloads\images for work\qw4.png" alt="بن">
+        <h3>بن</h3>
+        <p>40 جنيه/كجم</p>
+        <label for="quantity-coffee">الكمية:</label>
+        <input type="number" id="quantity-coffee" min="1" value="1">
+        <button class="btn" onclick="addToCart('بن', 'quantity-coffee', 40)">أضف إلى السلة</button>
+      </div>
+      
+      <div class="product-card">
+        <!-- المنتج رقم 8 -->
+        <img src="F:\downloads\images for work\qwa4.png" alt="مياه نستله كبيرة">
+        <h3>مياه نستله كبيرة</h3>
+        <p>15 جنيه/زجاجة</p>
+        <label for="quantity-nestle-large">الكمية:</label>
+        <input type="number" id="quantity-nestle-large" min="1" value="1">
+        <button class="btn" onclick="addToCart('مياه نستله كبيرة', 'quantity-nestle-large', 15)">أضف إلى السلة</button>
+      </div>
+      
+      <div class="product-card">
+        <!-- المنتج رقم 9 -->
+        <img src="F:\downloads\images for work\c4.png" alt="مياه نستله صغيرة">
+        <h3>مياه نستله صغيرة</h3>
+        <p>5 جنيه/زجاجة</p>
+        <label for="quantity-nestle-small">الكمية:</label>
+        <input type="number" id="quantity-nestle-small" min="1" value="1">
+        <button class="btn" onclick="addToCart('مياه نستله صغيرة', 'quantity-nestle-small', 5)">أضف إلى السلة</button>
+      </div>
+      
+
+
+
+      <div class="product-card">
+        <!-- المنتج رقم 10 -->
+        <img src="F:\downloads\images for work\x4.png" alt="زبيب">
+        <h3>زبيب</h3>
+        <p>40 جنيه/كجم</p>
+        <label for="quantity-raisins">الكمية:</label>
+        <input type="number" id="quantity-raisins" min="1" value="1">
+        <button class="btn" onclick="addToCart('زبيب', 'quantity-raisins', 40)">أضف إلى السلة</button>
+      </div>
+      
+      <div class="product-card">
+        <!-- المنتج رقم 11 -->
+        <img src="F:\downloads\images for work\WhatsApp Image 2024-11-22 at 9.55.20 AM.jpeg" alt="مربى فراولة">
+        <h3>مربى فراولة</h3>
+        <p>25 جنيه/علبة</p>
+        <label for="quantity-strawberry-jam">الكمية:</label>
+        <input type="number" id="quantity-strawberry-jam" min="1" value="1">
+        <button class="btn" onclick="addToCart('مربى فراولة', 'quantity-strawberry-jam', 25)">أضف إلى السلة</button>
+      </div>
+      
+      <div class="product-card">
+        <!-- المنتج رقم 12 -->
+        <img src="F:\downloads\images for work\a12.png" alt="مربى مشمش">
+        <h3>مربى مشمش</h3>
+        <p>30 جنيه/علبة</p>
+        <label for="quantity-apricot-jam">الكمية:</label>
+        <input type="number" id="quantity-apricot-jam" min="1" value="1">
+        <button class="btn" onclick="addToCart('مربى مشمش', 'quantity-apricot-jam', 30)">أضف إلى السلة</button>
+      </div>
+      
+      <div class="product-card">
+        <!-- المنتج رقم 13 -->
+        <img src="F:\downloads\images for work\v4.png" alt="شاي العروسة">
+        <h3>شاي العروسة</h3>
+        <p>20 جنيه/عبوة</p>
+        <label for="quantity-arousa-tea">الكمية:</label>
+        <input type="number" id="quantity-arousa-tea" min="1" value="1">
+        <button class="btn" onclick="addToCart('شاي العروسة', 'quantity-arousa-tea', 20)">أضف إلى السلة</button>
+      </div>
+      
+      <div class="product-card">
+        <!-- المنتج رقم 14 -->
+        <img src="F:\downloads\images for work\42.png" alt="بسكوت دايجستيف">
+        <h3>بسكوت دايجستيف</h3>
+        <p>15 جنيه/علبة</p>
+        <label for="quantity-digestive-biscuit">الكمية:</label>
+        <input type="number" id="quantity-digestive-biscuit" min="1" value="1">
+        <button class="btn" onclick="addToCart('بسكوت دايجستيف', 'quantity-digestive-biscuit', 15)">أضف إلى السلة</button>
+      </div>
+      
+
+
+
+
+
+
+
+  </section>
+
+  <div class="cart-container">
+    <h3>سلة التسوق</h3>
+    <ul id="cart-items">
+      <!-- ستُضاف العناصر هنا ديناميكيًا -->
+    </ul>
+    <p id="cart-total">الإجمالي: 0 جنيه</p>
+    <button class="btn" onclick="checkout()">إتمام الطلب</button>
+  </div>
+  
+  </section>
+
+
+  <!-- قسم معلومات الشركة مع اللوجو -->
+<div class="company-info">
+    <div class="logo-container">
+      <img src="F:\downloads\images for work\Easy trade logo.png" alt="لوجو الشركة" class="company-logo">
+    </div>
+    <div class="info-item">
+       Easy trade
+    </div>
+    <div class="info-item">
+ <a href="https://wa.me/01211140781" target="_blank" class="info-link">تواصل معنا عبر WhatsApp</a>
+    </div>
+    <div class="info-item">
+      <strong>صفحة الفيسبوك:</strong> <a href="https://www.facebook.com/bassem.saad2011" target="_blank" class="info-link">زيارة الصفحة</a>
+    </div>
+    <div class="info-item">
+      <strong>البريد الإلكتروني:</strong> <a href="mailto:easytrade95@gmail.com" target="_blank" class="info-link">إرسال بريد إلكتروني</a>
+    </div>
+  </div>
+  
+  
+  <script src="F:\visual studio\JS\site.js"></script>
+</body>
+</html>
